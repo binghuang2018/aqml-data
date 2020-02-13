@@ -1,0 +1,14 @@
+{"1": {
+ "calculator": "unknown",
+ "calculator_parameters": {},
+ "cell": [[2.51, 0.0, 0.0], [1.255, 2.173724, 0.0], [0.0, 0.0, 12.0]],
+ "ctime": 20.081341751115517,
+ "energy": -17.55076546,
+ "mtime": 20.081341751115517,
+ "numbers": [5, 7],
+ "pbc": [true, true, true],
+ "positions": [[1.255, 0.72458, 6.0], [2.51, 1.44915, 6.0]],
+ "unique_id": "a5fd3a018cc574150ad7c1ccb52be281",
+ "user": "bing"},
+"ids": [1],
+"nextid": 2}
