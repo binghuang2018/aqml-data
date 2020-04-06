@@ -1,0 +1,335 @@
+ -- now excuting /home/bing/Dropbox/bin/genamon -k 8 -k2 11 -ivdw -label b target/GC.sdf
+ ## can =  N
+    \To be accepted/
+ ## can =  N
+    \To be accepted/
+ ## can =  N
+    \To be accepted/
+ ## can =  N
+    \To be accepted/
+ ## can =  N
+    \To be accepted/
+
+
+ ## can =  C=N
+    \To be accepted/
+
+
+ ## can =  C=N
+    \To be accepted/
+
+
+ ## can =  C=C
+    \To be accepted/
+
+
+ ## can =  C=O
+    \To be accepted/
+
+
+ ## can =  C=N
+    \To be accepted/
+
+
+ ## can =  C=N
+    \To be accepted/
+
+
+ ## can =  C=O
+    \To be accepted/
+
+
+ ## can =  C=N
+    \To be accepted/
+
+
+ ## can =  C=C
+    \To be accepted/
+
+
+ ## can =  C=C
+    \To be accepted/
+
+
+ ## can =  C=CN
+    \To be accepted/
+
+
+ ## can =  C(=N)N
+    \To be accepted/
+
+
+ ## can =  C=CC(=N)N
+    \To be accepted/
+
+
+ ## can =  C=CC=N
+    \To be accepted/
+
+
+ ## can =  C=NC=O
+    \To be accepted/
+
+
+ ## can =  C(=NC=O)N
+    \To be accepted/
+
+
+ ## can =  C=CN
+    \To be accepted/
+
+
+ ## can =  C(=O)N
+    \To be accepted/
+
+
+
+
+ ## can =  c1c[nH]c(=O)nc1
+    \To be accepted/
+
+
+ ## can =  c1c[nH]c(=O)nc1N
+    \To be accepted/
+
+
+ ## can =  C=NC(=O)N
+    \To be accepted/
+
+
+ ## can =  C(=NC(=O)N)N
+    \To be accepted/
+
+
+ ## can =  C=CNC=O
+    \To be accepted/
+
+
+ ## can =  C(=N)N
+    \To be accepted/
+
+
+ ## can =  C(=N)N
+    \To be accepted/
+
+
+ ## can =  C(=N)(N)N
+    \To be accepted/
+
+
+ ## can =  C(=O)N
+    \To be accepted/
+
+
+ ## can =  C(=N)NC=O
+    \To be accepted/
+
+
+ ## can =  C(=O)NC(=N)N
+    \To be accepted/
+
+
+ ## can =  C=CN=C
+    \To be accepted/
+
+
+ ## can =  C=CN=CN
+    \To be accepted/
+
+
+ ## can =  C=CC=O
+    \To be accepted/
+
+
+ ## can =  C=CC(=O)N
+    \To be accepted/
+
+
+ ## can =  c1cnc[nH]c1=O
+    \To be accepted/
+
+
+ ## can =  c1cnc([nH]c1=O)N
+    \To be accepted/
+
+
+
+
+
+
+ ## can =  C(=N)C(=N)C=O
+    \To be accepted/
+
+
+ ## can =  C(=N)C=N
+    \To be accepted/
+
+
+ ## can =  C(=N)C=O
+    \To be accepted/
+
+
+ ## can =  C(=N)C(=O)N
+    \To be accepted/
+
+
+ ## can =  C=CN=C
+    Crowded due to too close cov bond, geom to ./crowded/tmp_zyq93v_.sdf
+
+
+ ## can =  C=C(C=O)N=C
+    Crowded due to too close cov bond, geom to ./crowded/tmpaxc76ypc.sdf
+
+
+ ## can =  C=C(C(=O)N)N=C
+    Crowded due to too close cov bond, geom to ./crowded/tmpxuqzxkf7.sdf
+
+
+ ## can =  C=NC=CN=C
+    Crowded due to too close cov bond, geom to ./crowded/tmp_6e4dr1b.sdf
+
+
+ ## can =  C=NC=CN=CN
+    Crowded due to too close cov bond, geom to ./crowded/tmpvgayqtn2.sdf
+
+
+
+
+
+
+ ## can =  C=CN
+    \To be accepted/
+
+
+ ## can =  C(=N)N
+    \To be accepted/
+
+
+ ## can =  C=C(N)N=C
+    \To be accepted/
+
+
+ ## can =  C(=N)C(=N)N
+    Crowded due to too close cov bond, geom to ./crowded/tmp214fx9bg.sdf
+
+
+ ## can =  C(=O)C(=N)C(=N)N
+    Crowded due to too close cov bond, geom to ./crowded/tmpay4zhy3n.sdf
+
+
+ ## can =  c1c(nc[nH]c1=O)N
+    \To be accepted/
+
+
+ ## can =  C=C(N)N=CN
+    \To be accepted/
+
+
+ ## can =  C(=CN)C=O
+    \To be accepted/
+
+
+ ## can =  C(=CN)C(=O)N
+    \To be accepted/
+
+
+
+
+ ## can =  C(=N)N
+    \To be accepted/
+
+
+ ## can =  c1cnc[nH]1
+    # found 5-membered aromatic ring
+    \To be accepted/
+
+
+ ## can =  C(=N)NC=N
+    Crowded due to too close cov bond, geom to ./crowded/tmp6l2cmfss.sdf
+
+
+ ## can =  C=Nc1cnc[nH]1
+    # found 5-membered aromatic ring
+    \To be accepted/
+
+
+ ## can =  c1c([nH]cn1)N=CN
+    # N_I>7 & 5-ring, found only one -R group, skip!
+
+
+ ## can =  c1c(nc[nH]1)C=O
+    # found 5-membered aromatic ring
+    \To be accepted/
+
+
+ ## can =  c1c(nc[nH]1)C(=O)N
+    # N_I>7 & 5-ring, found only one -R group, skip!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ++ found 55 cov amons
+| Now perceive vdw connectivity between standalone amons
+   found more than 2 HB's in a conj env C(=N)N.C(=O)N keep it!
+   found more than 2 HB's in a conj env C(=N)N.C(=N)NC=O keep it!
+   found more than 2 HB's in a conj env C(=N)N.C(=O)NC(=N)N keep it!
+   found more than 2 HB's in a conj env C(=N)N.C=CC(=O)N keep it!
+   found more than 2 HB's in a conj env C(=N)N.c1cnc[nH]c1=O keep it!
+   found more than 2 HB's in a conj env C(=N)N.c1cnc([nH]c1=O)N keep it!
+   found more than 2 HB's in a conj env C(=N)C(=O)N.C(=N)N keep it!
+   found more than 2 HB's in a conj env C(=N)N.c1c(nc[nH]c1=O)N keep it!
+   found more than 2 HB's in a conj env C(=CN)C(=O)N.C(=N)N keep it!
+   found more than 2 HB's in a conj env C(=O)N.C=CC(=N)N keep it!
+   found more than 2 HB's in a conj env C(=N)NC=O.C=CC(=N)N keep it!
+   found more than 2 HB's in a conj env C(=O)NC(=N)N.C=CC(=N)N keep it!
+   found more than 2 HB's in a conj env C=CC(=N)N.C=CC(=O)N keep it!
+   found more than 2 HB's in a conj env C(=N)C(=O)N.C=CC(=N)N keep it!
+   found more than 2 HB's in a conj env C(=CN)C(=O)N.C=CC(=N)N keep it!
+   found more than 2 HB's in a conj env C(=N)(N)N.C=NC=O keep it!
+   found more than 2 HB's in a conj env C(=N)(N)N.C(=NC=O)N keep it!
+   found more than 2 HB's in a conj env C(=NC=O)N.C(=O)N keep it!
+   found more than 2 HB's in a conj env C(=NC=O)N.C(=O)NC(=N)N keep it!
+   found more than 2 HB's in a conj env C(=NC=O)N.C=CC(=O)N keep it!
+   found more than 2 HB's in a conj env C(=N)C(=O)N.C(=NC=O)N keep it!
+   found more than 2 HB's in a conj env C(=CN)C(=O)N.C(=NC=O)N keep it!
+   found more than 2 HB's in a conj env C(=N)(N)N.c1c[nH]c(=O)nc1 keep it!
+   found more than 2 HB's in a conj env C(=O)N.c1c[nH]c(=O)nc1N keep it!
+   found more than 2 HB's in a conj env C(=N)(N)N.C=NC(=O)N keep it!
+   found more than 2 HB's in a conj env C(=N)(N)N.C(=NC(=O)N)N keep it!
+   found more than 2 HB's in a conj env C(=NC(=O)N)N.C(=O)N keep it!
+   found more than 2 HB's in a conj env C(=NC(=O)N)N.C=CC(=O)N keep it!
+   found more than 2 HB's in a conj env C(=N)C(=O)N.C(=NC(=O)N)N keep it!
+amon connectivity done
+  ++ found 29 vdw amons with ncomb=2
+     now search for vdw amon made up of 3 cov amons
+     done within time:  0.016188383102416992  seconds
+  ++ found 0 vdw amons with ncomb=3
+atom indices of all amons done
+
+
+    post-screening: found vdw amons C(=N)N.c1c(nc[nH]c1=O)N with changed hyb, skip!
+    post-screening: found vdw amons C(=CN)C(=O)N.C(=N)N with changed hyb, skip!
+    post-screening: found vdw amons C(=CN)C(=O)N.C=CC(=N)N with changed hyb, skip!
+    post-screening: found vdw amons C(=N)(N)N.C=NC=O with changed hyb, skip!
+    post-screening: found vdw amons C(=N)(N)N.C(=NC=O)N with changed hyb, skip!
+    post-screening: found vdw amons C(=CN)C(=O)N.C(=NC=O)N with changed hyb, skip!
+    post-screening: found vdw amons C(=N)(N)N.c1c[nH]c(=O)nc1 with changed hyb, skip!
+    post-screening: found vdw amons C(=N)(N)N.C=NC(=O)N with changed hyb, skip!
+    post-screening: found vdw amons C(=N)(N)N.C(=NC(=O)N)N with changed hyb, skip!
+   ## found 20 mol complexes!
+amons now ready for filtering
+cans= ['N', 'C=N', 'C=C', 'C=O', 'C=CN', 'C(=N)N', 'C=CC(=N)N', 'C=CC=N', 'C=NC=O', 'C(=NC=O)N', 'C(=O)N', 'c1c[nH]c(=O)nc1', 'c1c[nH]c(=O)nc1N', 'C=NC(=O)N', 'C(=NC(=O)N)N', 'C=CNC=O', 'C(=N)(N)N', 'C(=N)NC=O', 'C(=O)NC(=N)N', 'C=CN=C', 'C=CN=CN', 'C=CC=O', 'C=CC(=O)N', 'c1cnc[nH]c1=O', 'c1cnc([nH]c1=O)N', 'C(=N)C(=N)C=O', 'C(=N)C=N', 'C(=N)C=O', 'C(=N)C(=O)N', 'C=C(N)N=C', 'c1c(nc[nH]c1=O)N', 'C=C(N)N=CN', 'C(=CN)C=O', 'C(=CN)C(=O)N', 'c1cnc[nH]1', 'C=Nc1cnc[nH]1', 'c1c(nc[nH]1)C=O', 'C(=N)N.C(=O)N', 'C(=N)N.C(=N)NC=O', 'C(=N)N.C(=O)NC(=N)N', 'C(=N)N.C=CC(=O)N', 'C(=N)N.c1cnc[nH]c1=O', 'C(=N)N.c1cnc([nH]c1=O)N', 'C(=N)C(=O)N.C(=N)N', 'C(=O)N.C=CC(=N)N', 'C(=N)NC=O.C=CC(=N)N', 'C(=O)NC(=N)N.C=CC(=N)N', 'C=CC(=N)N.C=CC(=O)N', 'C(=N)C(=O)N.C=CC(=N)N', 'C(=NC=O)N.C(=O)N', 'C(=NC=O)N.C(=O)NC(=N)N', 'C(=NC=O)N.C=CC(=O)N', 'C(=N)C(=O)N.C(=NC=O)N', 'C(=O)N.c1c[nH]c(=O)nc1N', 'C(=NC(=O)N)N.C(=O)N', 'C(=NC(=O)N)N.C=CC(=O)N', 'C(=N)C(=O)N.C(=NC(=O)N)N']
+ size of maps:  (58, 3)
+ amons are to be written to b
+ ## summary: found 57 molecular graphs, 58 configurations
+ -- time elaped:  4.210423469543457  seconds

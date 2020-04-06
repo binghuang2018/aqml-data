@@ -1,0 +1,28 @@
+%pal nprocs 6 end
+%maxcore 1000
+! b3lyp TIGHTSCF nopop D3BJ
+! cc-pvdz def2/J RIJCOSX
+! Opt
+
+%geom
+maxiter 60
+TolE 1e-4
+TolRMSG 2e-3
+TolMaxG 3e-3
+TolRMSD 2e-2
+TolMaxD 3e-2
+end
+
+*xyz 0 1
+N 3.9007 -1.5683 0.0113
+C 3.1539 -0.5142 -0.0054
+C 1.6439 -0.661 -0.0095
+N 1.1124 -1.913 0.0039
+N 0.8856 0.3845 -0.0247
+H 4.888 -1.2869 0.0001
+H 3.5484 0.5134 -0.0233
+H 1.7547 -2.6349 0.3205
+H 0.1724 -1.9621 0.3737
+H 1.4336 1.2483 -0.0439
+*
+
