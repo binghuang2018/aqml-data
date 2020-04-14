@@ -1,7 +1,13 @@
 
 # Amons generation
+To generate amons used for prediction of total energy, use the following command:
 ```bash
-genamon_oechem -fixgeom -k 7 -ivdw -label g7v -nprocs 16 target/1uao.sdf >out-g7v &
+genamon -fixgeom -k 7 -ivdw -label g7v target/1uao.sdf >out-g7v &
+```
+
+To generate amons used for predicting atomic properties, use instead
+```bash
+molcut -k 24 -rcut 3.6 -lb amons -q target/1uao.sdf >amons.out &
 ```
 
 
@@ -10,6 +16,8 @@ genamon_oechem -fixgeom -k 7 -ivdw -label g7v -nprocs 16 target/1uao.sdf >out-g7
 - Geometry of 1uao was optimized at the level of theory BV5LYP/cc-pVDZ with dispersion correction by Gaussian 09 (It's very difficult to converge the geometry by ORCA4).
 
 - Static amons were generated, i.e., the geometry of any amon is as it is in the optimized geometry of 1uao
+
+- Core Level shifts (cls) were calculated by the initial state approximation by VASP
 
 - single point energy for both amons and 1uao were calculated at b3lyp/cc-pvdz with DFT-D3 dispersion correction by ORCA4, with keywords
 
