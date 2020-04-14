@@ -1,15 +1,24 @@
 
-# Computational methods
+## Amons generation
 
- - B3LYP/cc-pVDZ plus dft-d3 dispersion correction
- - Geometry and energies were obtained at the same level of theory
+Take the complex GC for example
+```bash
+genamon -k 8 -k2 11 -ivdw -label a target/GC.sdf >out-a
+```
 
-# Amons generation
+## Computational methods
 
-genamon -k 8 -noextra T target/*sdf >out &
+Level of theory: orca4/b3lyp/cc-pvdz + dft-d3
 
-genamon -k 6 -k2 6 -ivdw T -ivao T -noextra T target/*sdf >out_v &
+orca4 input files were generated using `gen_orca_jobs`.
 
-gen_orca_jobs -t optg -m b3lyp -b vdz -loose -wc -n 6 -disp a*/*f
+  - For target molecule:
+```bash
+gen_orca_jobs -t optg -m b3lyp -b vdz -disp target/??.sdf
+```
 
+  - For amons:
+```bash
+gen_orca_jobs -t optg -m b3lyp -b vdz -disp -loose a/frag*sdf
+```
 
