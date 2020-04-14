@@ -1,10 +1,20 @@
 
-# Names of the compounds
+# Test polymers
 - 01: PE, polyethylene
 - 02: PA, polyacetylene
 - 03: (ala)10, alanine peptide
 - 04: PLA, polyactic acid
 - 05: bQAPS, backbone of quaternary ammonium polysulphone
+
+
+# Amons generation
+Take the complex with ID 01 as an example:
+```bash
+cd 01/
+genamons_oechem -k 7 target/frag_01.sdf
+```
+The only exception is for complex 02, for which `-k 8` was used instead. This is necessary as larger amons (i.e., with `N_I>=8`) are necessary to represent the delocalized nature of highly conjugated systems, e.g., polyacelene.
+
 
 # Computational methods
 
