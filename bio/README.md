@@ -21,7 +21,7 @@ gen_orca_jobs -t optg -m b3lyp -b vdz -loose z/frag*sdf
 ```
 
 
-## Ids & Molecules
+## Test bio-molecules
 
 - 01: amphetamine
 - 02: aspirin
