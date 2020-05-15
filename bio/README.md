@@ -1,9 +1,11 @@
 
 ## Amons generation
+
+Take the first molecule for example:
 ```bash
-lb=z # folder name storing amons
-pwd=$PWD
-for f in ??; do cd echo $f; $pwd/$f; genamon_oechem -k 8 -label $lb target/*.sdf >out-${lb}; done
+lb=z # folder name, used for storing amons
+cd 01/
+genamon_oechem -k 8 -label $lb target/*.sdf >out-${lb}
 ```
 
 ## Computational methods
