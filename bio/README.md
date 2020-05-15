@@ -10,7 +10,7 @@ cd 01/
 
 
 ```bash
-lb=z # folder name, used for storing amons
+lb=a # folder name, used for storing amons
 genamon_oechem -k 8 -label $lb target/*.sdf >out-${lb}
 ```
 
@@ -25,7 +25,28 @@ gen_orca_jobs -t optg -m b3lyp -b vdz target/??.sdf
 
   - For amons:
 ```bash
-gen_orca_jobs -t optg -m b3lyp -b vdz -loose z/frag*sdf
+gen_orca_jobs -t optg -m b3lyp -b vdz -loose a/frag*sdf
+```
+
+## Run orca jobs
+
+Run all orca jobs using the generated orca input files from the step above
+
+
+## Generate reference quantum data
+Once all calculations are done, use the following script to extract energy (and other properties) from the output files
+```bash
+orca2xyz -p e a/*.out target/*.out
+```
+
+## AQML 
+Now we are ready to run aqml model to predict the property of target molecule, i.e.,
+```bash
+aqml -train a/ -test target/
+```
+The corresponding result is shown in file README.md
+
+
 ```
 
 
