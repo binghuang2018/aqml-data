@@ -12,4 +12,7 @@ For reproduction, please install `aqml` first.
 
 # Instructions
 
+- First of all, make sure you have read throught the README.md file located under folder aqml/demo/example of `aqml` package and be able to reproduce the results there.
+
 - To reproduce all data, follow the README.md file in each subfolder for detail.
+
