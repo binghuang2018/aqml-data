@@ -1,7 +1,9 @@
 
+Below, we take the first molecule as an example for reproduction.
+
 ## Amons generation
 
-Take the first molecule for example:
+
 ```bash
 lb=z # folder name, used for storing amons
 cd 01/
