@@ -33,11 +33,12 @@ gen_orca_jobs -t optg -m b3lyp -b vdz -loose a/frag*sdf
 Run all orca jobs using the generated orca input files from the step above
 
 
-## Generate reference quantum data
+## Generate reference data
 Once all calculations are done, use the following script to extract energy (and other properties) from the output files
 ```bash
 orca2xyz -p e a/*.out target/*.out
 ```
+One `xyz` file would be created for each input `out` file. One should produce exactly the same `xyz` file as in folder `z/`.
 
 ## AQML 
 Now we are ready to run aqml model to predict the property of target molecule, i.e.,
