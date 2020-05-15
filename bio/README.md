@@ -1,12 +1,16 @@
 
 Below, we take the first molecule as an example for reproduction.
 
+First of all, go to the corresponding subfolder 01/, i.e.,
+```bash
+cd 01/
+```
+
 ## Amons generation
 
 
 ```bash
 lb=z # folder name, used for storing amons
-cd 01/
 genamon_oechem -k 8 -label $lb target/*.sdf >out-${lb}
 ```
 
