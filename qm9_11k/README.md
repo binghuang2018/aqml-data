@@ -1,5 +1,5 @@
 
-The overall 11k QM9 molecules with N_I=9 (i.e., 9 heavy atoms) are divided
+The overall 11k molecules with 9 heavy atoms randomly drawn from QM9  are divided
 into 11 parts. Each part contains 1k molecules and corresponds to triple files
 of the following patter:
 
@@ -29,9 +29,10 @@ typing `pip install deepdish` in the command line):
 ```
 
 The integer array `idx` is the desired amon indices of target #9 in file `02_target.xyz`.
-Then one can read out relevant geometries/properties from file `02_amons.xyz`.
+Then one can read out relevant geometries/properties from file `02_amons.xyz` and proceed
+to QML.
 
 
-** Note **
+**Note**
 - The computational method used for all geometries and energies is G09/B3LYP/6-31G(D).
 
