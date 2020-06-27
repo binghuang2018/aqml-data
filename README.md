@@ -1,4 +1,5 @@
 *aqml-data*
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3911072.svg)](https://doi.org/10.5281/zenodo.3911072)
 
 Quantum chemical reference data accompanying the code `aqml` (`https://github.com/binghuang2018/aqml`)
 
